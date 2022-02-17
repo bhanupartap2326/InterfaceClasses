@@ -1,3 +1,6 @@
+/*
+    Added Comment section 
+*/
 global class RollupSummaryBatch implements Database.Batchable<SObject>,Database.Stateful,Schedulable {
     global String Query;
 	    
